@@ -7,6 +7,7 @@
 
 from os import system
 from os import listdir
+import requests
 
 for filename in listdir("../chengdu"):
     system(f"python3 subdomain_find.py < ../chengdu/{filename} > ../chengdure/{filename}.txt")
